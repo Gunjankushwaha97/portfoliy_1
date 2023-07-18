@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)file:///C:/Users/admin/Desktop/html/job.html -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .header {
+            background-color: white;
+            height: 60px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .logo {
+            size: 30px;
+            padding: 20px;
+            right: 40px;
+        }
+
+        .nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav ul li {
+            padding: 19px;
+        }
+
+        .button {
+            padding: 19px;
+            color: orangered;
+            width: 20px;
+            font-weight: bold;
+        }
+
+        .button1 {
+            color: aliceblue;
+            margin-top: 10px;
+            height: 1px;
+            padding: 19px;
+            background-color: orangered;
+            border-radius: 190px 190px 190px 190px;
+
+        }
+
+        .div {
+            height: 460px;
+            background-color: whitesmoke;
+            z-index: -6px;
+        }
+
+        .circle {
+            width: 30%;
+            height: 300px;
+            background-color: lightblue;
+            border-radius: 250px 250px 0px 0px;
+            position: absolute;
+            right: 10vw;
+            bottom: 20.9vh;
+            z-index: -6px;
+
+        }
+
+        .girl {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: -6px;
+
+        }
+
+        .h1 {
+            padding: 140px;
+            font-weight: bold;
+            color: black;
+            font-size: 60px;
+        }
+
+        .form1 {
+            float: left;
+            font-size: 30px;
+            height: 100px;
+        }
+
+        .type {
+            margin: 10px;
+            width: 150%;
+            height: 40px;
+            border-radius: 10px 10px 10px 10px;
+            border: 1px solid orangered;
+            padding: 9px;
+            font-size: 20px;
+        }
+
+        .button2 {
+            background-color: rgb(238, 22, 209);
+            border: none;
+            color: white;
+            border-radius: 40px 40px 40px 40px;
+            height: 40px;
+            width: 20%;
+            font-size: 15px;
+        }
+
+        .button3 {
+            background-color: orangered;
+            border: none;
+            border-radius: 40px 40px 40px 40px;
+            height: 40px;
+            width: 10%;
+            float: right;
+            position: absolute;
+            margin-bottom: 900px;
+            margin-left: 1100px;
+            margin-top: 390px;
+            z-index: -6px;
+        }
+
+        .logos {
+            padding: 40px;
+            height: 170px;
+            background-color: whitesmoke;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .logo1 {
+            text-align: center;
+            background-color: whitesmoke;
+            height: 190px;
+        }
+
+        .logos1 {
+            padding: 40px;
+            height: 170px;
+            background-color: whitesmoke;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .div2 {
+            height: 400px;
+            width: 100%;
+            background-color: whitesmoke;
+        }
+
+        .sing_up {
+            position: absolute;
+            margin: 130px;
+            width: 80%;
+            height: 190px;
+            background-color: rgb(129, 75, 3);
+            border-radius: 20px 20px 20px 20px;
+
+
+        }
+
+        .p1 {
+            font-weight: bold;
+            color: aliceblue;
+            border-radius: 20px 20px 20px 20px;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .sing_up1 {
+            position: absolute;
+            bottom: 30px;
+            background-color: rgb(77, 136, 226);
+            font-size: 20px;
+            border-radius: 30px 30px 30px 30px;
+            border: none;
+            width: 20%;
+            right: 500px;
+            left: 400px;
+            margin-bottom: 30px;
+            color: whitesmoke;
+            height: 50px;
+        }
+
+        .aero {
+            position: absolute;
+            margin-left: 600px;
+        }
+
+        .div3 {
+            height: 190px;
+            width: 100%;
+            background-color: whitesmoke;
+
+        }
+
+
+        form {
+            padding: 10px;
+            text-align: center;
+            color: #fff;
+            font-size: 30px;
+            position: none;
+            top: 0px;
+            justify-content: none;
+        }
+
+        input {
+            position: relative;
+            display: inline-block;
+            font-size: 30px;
+            box-sizing: border-box;
+            transition: .5s;
+        }
+
+        .type {
+            background: rgb(211, 209, 209);
+            width: 240px;
+            height: 40px;
+            border-radius: 25px 0 0 25px;
+            border: none;
+        }
+
+        .search {
+            border-radius: 0px 80px 80px 0px;
+            height: 40px;
+            width: 10%;
+            background-color: rgb(94, 54, 3);
+            color: whitesmoke;
+            font-size: 15px;
+            border: none;
+        }
+
+        .Subscribe {
+            font-size: 22px;
+        }
+
+        .header1 {
+            background-color: whitesmoke;
+            height: 60px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            font-size: 20px;
+        }
+
+        .hr {
+            width: 84%;
+            margin-left: 110px;
+            background-color: silver;
+        }
+
+        .div4 {
+            height: 200px;
+            width: 100%;
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <header class="header">
+        <div class="logo"><img src="images/Image 3104.png"></div>
+        <div class="nav">
+            <ul>
+                <li>Features</li>
+                <li>About us </li>
+                <li>Pricing</li>
+                <li>Help center</li>
+                <li>Content us</li>
+                <li>FAQs</li>
+                <li>Careers</li>
+            </ul>
+        </div>
+        <div class="button">Login</div>
+        <div class="button1">try to free</div>
+    </header>
+    <div class="div">
+        <button class="button3">🎧chat support</button>
+        <h1 class="h1">Help Center<br>
+            <form class="form1">
+                <input class="type" type="type" name="" placeholder="🔍i have trouble with">
+            </form>
+        </h1>
+        <div class="circle">
+            <img src="images/Image 3103.png" class="girl">
+            <button class="button2">💰24/7</button>
+        </div>
+    </div>
+    <div class="logos">
+        <div class="logo1">
+            <img src="images/Gear 9.png">
+            <h1>setting</h1>
+            <p class="par">Labore proident nisi fugiat nostrud</p>
+        </div>
+        <div class="logo1">
+            <img src="images/User circle plus 3.png">
+            <h1>Team plan</h1>
+            <p>Labore proident nisi fugiat nostrud</p>
+        </div>
+        <div class="logo1">
+            <img src="images/Handshake 3.png">
+            <h1>Partnership</h1>
+            <p>Labore proident nisi fugiat nostrud</p>
+        </div>
+    </div>
+    <div class="logos1">
+        <div class="logo1">
+            <img src="images/Shield 3.png">
+            <h1>Security</h1>
+            <p class="par">Labore proident nisi fugiat nostrud</p>
+        </div>
+        <div class="logo1">
+            <img src="images/Credit card 3.png">
+            <h1>Feature request</h1>
+            <p>Labore proident nisi fugiat nostrud</p>
+        </div>
+        <div class="logo1">
+            <img src="images/Info 40.png">
+            <h1>others</h1>
+            <p>Labore proident nisi fugiat nostrud</p>
+        </div>
+    </div>
+    <div class="div2">
+        <div class="sing_up">
+            <p class="p1">Lorem er irure commod</p>
+            <center>
+                <div class="aero"><img src="images/Image 3105.png"></div>
+            </center>
+            <center><button class="sing_up1">sing up</button>
+            </center>
+        </div>&gt;
+    </div>
+    <div class="div3">
+        <center>
+            <h1 class="Subscribe">Subscribe to Our newsletter</h1>
+            <form class="form">
+                <input class="type" type="type" name="" placeholder="✉ input your email">
+                <input class="search" type="submit" name="" value="Subscribe">
+            </form>
+        </center>
+    </div>
+    <header class="header1">
+        <div class="logo"><img src="images/Image 3104.png"></div>
+        <div class="nav">
+            <ul>
+                <li>Features</li>
+                <li>About us </li>
+                <li>Pricing</li>
+                <li>Help center</li>
+                <li>Content us</li>
+                <li>FAQs</li>
+                <li>Careers</li>
+            </ul>
+        </div>
+    </header>
+    <hr class="hr">
+    <div class="div4">
+
+    </div>
+
+
+</body>
+
+</html>
